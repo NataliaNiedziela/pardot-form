@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header class="header flex-col">
+        <img src="./assets/camp.jpg" alt="" class="headerBG">
+        <nav class="nav flex-row">
+            <a href="#about" class="link">About</a>
+            <a href="#offer" class="link">Offer</a>
+            <img src="./assets/logo.png" alt="" class="logo">
+            <a href="#opinions" class="link">Opinions</a>
+            <a href="#contact" class="link">Contact</a>
+        </nav>
+        <div class=" header__content flex-col-center">
+            <h1 class="heading heading--1">Summer Holiday Camp</h1>
+            <h2 class="heading heading--2">Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
+            <a href="#" class="btn btn--primary">Buy</a>
+        </div>
+    </header>
+
+    <section class="about flex-col padding-2" id="about">
+        <h2 class="heading heading--2">What we do?</h2>
+        <div class="flex-row">
+            <div class="about__items padding-2">
+                <img src="./assets/bus.png" alt="" class="icon">
+                <p class="bold">lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio tenetur natus dolor labore ratione itaque. Lorem ipsum dolor sit.</p>
+            </div>
+            <div class="about__items padding-2">
+                <img src="./assets/bus.png" alt="" class="icon">
+                <p class="bold">lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor sit amet consectetur. Optio tenetur natus dolor labore ratione itaque.</p>
+            </div>
+            <div class="about__items padding-2">
+                <img src="./assets/bus.png" alt="" class="icon">
+                <p class="bold">lorem ipsum dolor</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus nisi natus rerum nulla delectus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus flex-col-center padding-2" id="offer">
+        <h2 class="heading heading--2"><span class="blue">Campus?</span><span class="orange"> What it is?</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae architecto, tempora ipsa cumque ipsam quibusdam sunt maiores dolorum</p>
+        <p>dolores omnis voluptatum repellat doloribus totam culpa, aliquid qui! Enim, fugit nulla!</p>
+        <div class="campus__type flex-row">
+            <article class="campus__type__item flex-col-center padding-2">
+                <img src="./assets/LPuniversity.jpg" alt=""  class="icon">
+                <h4 class="bold orange">Castle camp</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>Tenetur adipisci minus asperiores distinctio cum ex neque cupiditate, inventore architecto provident sequi exercitationem dolore quaerat voluptates!</p>
+            </article>
+            <article class="campus__type__item flex-col-center padding-2">
+                <img src="./assets/LPuniversity.jpg" alt="" class="icon">
+                <h4 class="bold orange">Jungle camp</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>Lorem ipsum dolor sit. Tenetur adipisci minus asperiores distinctio cum ex neque cupiditate, inventore architecto provident sequi exercitationem dolore quaerat voluptates!</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="opinions flex-row padding-2" id="opinions">
+        <section class="opinions__info padding-2">
+            <h2 class="heading heading--2 blue">What our clients thinks?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati distinctio a, eos sit quisquam voluptatem sequi officiis! Minima, laboriosam autem. Animi ipsam accusantium numquam harum magni pariatur nobis sequi libero.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis soluta magnam voluptates excepturi atque, velit tempora eos eaque minus exercitationem.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus quasi distinctio repellat praesentium rem repellendus consequuntur officiis facilis consectetur laudantium.</p>
+        </section>
+
+        <section class="opinions__box grid-2 padding-2">
+            <article class="opinions__box__item padding-2">
+                <p>Natalia Niedziela</p>
+                <p class="date">21-12-1222</p>
+                <p>Super chruper lorem ipsum joł joł joł</p>
+            </article>
+            <article class="opinions__box__item padding-2">
+                <p>Natalia Niedziela</p>
+                <p class="date">21-12-1222</p>
+                <p>Super chruper lorem ipsum joł joł joł</p>
+            </article>
+            <article class="opinions__box__item padding-2">
+                <p>Natalia Niedziela</p>
+                <p class="date">21-12-1222</p>
+                <p>Super chruper lorem ipsum joł joł joł</p>
+            </article>
+            <article class="opinions__box__item padding-2">
+                <p>Natalia Niedziela</p>
+                <p>21-12-1222</p>
+                <p>Super chruper lorem ipsum joł joł joł</p>
+            </article>
+        </section>
+    </section>
+    <section class="flex-col contact padding-2" id="contact">
+        <h2 class="heading heading-2">Join to our camp!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="form">
+            <form action="http://www3.lenoxsoft.com/l/571193/2023-02-09/292mt1" method="post" class="form__content" enctype="application/x-www-form-urlencoded">
+                <label for="firstName" class="label">First name:</label>
+                <input type="text" id="firstName" class="input">
+
+                <label for="lname" class="label">Last name:</label>
+                <input type="text" id="lastName" class="input">
+
+                <label for="email" class="label">Email:</label>
+                <input type="email" id="email" class="input">
+
+                <label for="company" class="label">Company</label>
+                <input type="text" id="company" class="input">
+
+                <input type="submit" value="Submit" class="btn btn--submit">
+              </form>
+        </div>
+    </section>
+
+    <footer class="footer flex-col">
+      <p>Natalia Niedziela</p>
+      <p>2024</p>
+    </footer>
+</body>
+</html>
